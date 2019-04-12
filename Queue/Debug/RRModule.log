@@ -1,7 +1,0 @@
-﻿  QueueDlg.cpp
-c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(38): warning C4996: 'MBCS_Support_Deprecated_In_MFC': MBCS support in MFC is deprecated and may be removed in a future version of MFC.
-          c:\program files (x86)\microsoft visual studio 12.0\vc\atlmfc\include\afx.h(33): см. объявление "MBCS_Support_Deprecated_In_MFC"
-  _WIN32_WINNT not defined. Defaulting to _WIN32_WINNT_MAXVER (see WinSDKVer.h)
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\Users\806263\Desktop\Intelmet\2) CV\Модули для RR\Queue\.\Debug\RRModule.dll) does not match the Linker's OutputFile property value (C:\Users\806263\Desktop\Intelmet\2) CV\Модули для RR\Queue\Debug\SwapColor.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(RRModule) does not match the Linker's OutputFile property value (SwapColor). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
-  RRModule.vcxproj -> C:\Users\806263\Desktop\Intelmet\2) CV\Модули для RR\Queue\.\Debug\RRModule.dll
