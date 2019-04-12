@@ -1,0 +1,210 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Английский (США) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\RRModule.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "Grid DLL"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "Grid"
+            VALUE "LegalCopyright", "Copyright (C) 2005"
+            VALUE "OriginalFilename", "Grid.DLL"
+            VALUE "ProductName", "RRModule Dynamic Link Library"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_GRID DIALOGEX 0, 0, 201, 201
+STYLE DS_SETFONT | DS_MODALFRAME | DS_NOIDLEMSG | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Grid"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,89,181,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,144,181,50,14
+    LTEXT           "Color",IDC_STATIC,15,16,17,8
+    DEFPUSHBUTTON   "Help",IDC_SHOW_HELP,32,181,50,14
+    COMBOBOX        IDC_COLOR,46,14,138,90,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Appearance",IDC_STATIC,6,4,187,42
+    LTEXT           "Thikness",IDC_STATIC,14,31,30,8
+    COMBOBOX        IDC_THIKNESS,46,29,138,92,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "      Horizontal lines",IDC_STATIC,8,50,186,61
+    CONTROL         "",IDC_SPIN5,"msctls_updown32",UDS_ARROWKEYS | UDS_NOTHOUSANDS,173,91,11,14
+    EDITTEXT        IDC_C1,46,62,35,12,ES_AUTOHSCROLL
+    LTEXT           "Step1",IDC_STATIC,111,62,20,8
+    EDITTEXT        IDC_S1,137,61,35,12,ES_AUTOHSCROLL
+    LTEXT           "Count1",IDC_STATIC,17,64,24,8
+    CONTROL         "",IDC_SPIN7,"msctls_updown32",UDS_SETBUDDYINT | UDS_ARROWKEYS | UDS_NOTHOUSANDS,82,124,11,14
+    LTEXT           "X2 Start",IDC_STATIC,16,144,26,8
+    GROUPBOX        "       Vertical lines",IDC_STATIC,7,113,186,62
+    CONTROL         "",IDC_SPIN8,"msctls_updown32",UDS_SETBUDDYINT | UDS_ARROWKEYS | UDS_NOTHOUSANDS,174,124,11,14
+    LTEXT           "Y2 End",IDC_STATIC,108,159,24,8
+    CONTROL         "",IDC_SPIN9,"msctls_updown32",UDS_ARROWKEYS | UDS_NOTHOUSANDS,82,140,11,14
+    LTEXT           "Y2 Start",IDC_STATIC,107,143,26,8
+    CONTROL         "",IDC_SPIN10,"msctls_updown32",UDS_ARROWKEYS | UDS_NOTHOUSANDS,174,140,11,13
+    EDITTEXT        IDC_X1,137,78,35,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN1,"msctls_updown32",UDS_SETBUDDYINT | UDS_ARROWKEYS | UDS_NOTHOUSANDS,82,61,11,14
+    LTEXT           "X1 Start",IDC_STATIC,107,79,26,8
+    EDITTEXT        IDC_X2,137,92,35,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN2,"msctls_updown32",UDS_SETBUDDYINT | UDS_ARROWKEYS | UDS_NOTHOUSANDS,173,60,11,14
+    LTEXT           "X1 End",IDC_STATIC,109,94,24,8
+    CONTROL         "",IDC_SPIN3,"msctls_updown32",UDS_ARROWKEYS | UDS_NOTHOUSANDS,173,77,11,14
+    CONTROL         "",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,50,8,10
+    CONTROL         "",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,14,113,8,10
+    EDITTEXT        IDC_C2,46,125,35,12,ES_AUTOHSCROLL
+    LTEXT           "Step2",IDC_STATIC,111,128,20,8
+    EDITTEXT        IDC_S2,137,125,35,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN12,"msctls_updown32",UDS_ARROWKEYS | UDS_NOTHOUSANDS,174,155,11,14
+    LTEXT           "Count2",IDC_STATIC,17,127,24,8
+    EDITTEXT        IDC_X3,46,141,35,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y3,137,140,36,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_Y4,137,156,36,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN11,"msctls_updown32",UDS_SETBUDDYINT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | NOT WS_VISIBLE | WS_DISABLED,82,156,11,14
+    EDITTEXT        IDC_X4,46,156,35,12,ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "X2 End",IDC_STATIC,15,159,24,8,NOT WS_VISIBLE | WS_DISABLED
+    LTEXT           "Y1 Start",IDC_STATIC,16,79,26,8
+    CONTROL         "",IDC_SPIN4,"msctls_updown32",UDS_ARROWKEYS | UDS_NOTHOUSANDS,82,78,11,14
+    EDITTEXT        IDC_Y1,45,78,35,12,ES_AUTOHSCROLL
+    CONTROL         "",IDC_SPIN6,"msctls_updown32",UDS_SETBUDDYINT | UDS_ARROWKEYS | UDS_NOTHOUSANDS | NOT WS_VISIBLE | WS_DISABLED,82,93,11,14
+    LTEXT           "Y1 End",IDC_STATIC,16,95,24,8,NOT WS_VISIBLE | WS_DISABLED
+    EDITTEXT        IDC_Y2,45,93,35,12,ES_AUTOHSCROLL | NOT WS_VISIBLE | WS_DISABLED
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_GRID, DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_GRID AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Английский (США) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\RRModule.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
